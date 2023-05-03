@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 </head>
 
 <body>
@@ -27,10 +27,14 @@
                             <div class="header__qr">
                                 <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img">
                                 <div class="header__qr-apps">
-                                    <a href="#" class="header__qr-link"><img src="./assets/img/google_play.png"
-                                            alt="Google Play" class="header__qr-download-img"></a>
-                                    <a href="#" class="header__qr-link"><img src="./assets/img/app_store.png"
-                                            alt="App Store" class="header__qr-download-img"></a>
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png"
+                                             alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    <a href="#" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png"
+                                             alt="App Store" class="header__qr-download-img">
+                                    </a>
                                 </div>
                             </div>
                         </li>
@@ -90,10 +94,12 @@
                         </li>
                         <li class="header__navbar-item">
                             <a href="#" class="header__navbar-item-link">
-                                <i class="header__navbar-icon far fa-question-circle""></i>
-                            Trợ giúp</a>
+                                <i class="header__navbar-icon far fa-question-circle" "></i>
+                                Trợ giúp
+                            </a>
                         </li>
-                        <li class=" header__navbar-item header__navbar-item-bold header__navbar-item--separate">Đăng ký
+                        <li class=" header__navbar-item header__navbar-item-bold header__navbar-item--separate">
+                            Đăng ký
                         </li>
                         <li class="header__navbar-item header__navbar-item-bold">Đăng nhập</li>
                     </ul>
@@ -105,6 +111,56 @@
         </div>
         <footer class="footer">
         </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body">
+            <!-- Authen form -->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Email của bạn" />
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" />
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu" />
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với F8-Shop về
+                            <a href="#" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--nornal auth-form__control-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="#" class="btn btn--size-s btn--with-icon auth-form__socials-facebook">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="#" class="btn btn--size-s btn--with-icon auth-form__socials-google">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
